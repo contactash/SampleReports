@@ -21,10 +21,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="myweb" />
         <module name="SampleReport" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="myweb" target="1.5" />
       <module name="SampleReport" target="1.5" />
     </bytecodeTargetLevel>
   </component>
