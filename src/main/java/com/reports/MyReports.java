@@ -33,7 +33,7 @@ public class MyReports {
 	private static Connection getConnection() throws ClassNotFoundException,
 			SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/college?user=root&password=pass@123");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/college?user=ash&password=password");
 		return conn;
 	}
 
